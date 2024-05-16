@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+} */
+.mainHome{
+  /* background-color: #F5F5F5;
+  background-image: linear-gradient(to top, rgba(255,0,0,0),#2b3c5aa1,#9e64c5a1); */
+  background: rgb(177,162,230);
+  background: linear-gradient(180deg, rgba(22, 26, 69, 0.899) 5%, rgb(172, 196, 215) 35%, rgba(216, 223, 229, 0.945) 95%);
+}
+.sec1{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sideBar{
+  background-color: #ddd;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.sideBar li{
+  padding: 10px;
+  border-radius: 10px;
+}
+ .sideBar li:hover{
+  background-color: #273856;
+ }
+
+ .carousal{
+  padding-top: 20px;
+ }
+ 
+h1{
+  font-size: 25px;
+  color:#2F3259;
+  font-weight: bolder;
+}
+
+.sideBar li:hover a{
+  color:white;
+ }
+
+ .sideBar li a {
+  color:black
+
+  
+ }
+
+ .card{
+ background-color: #ddd;
+ }
+
+
+ 
