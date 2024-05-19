@@ -7,11 +7,11 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Card, CardHeader, CardBody } from "@nextui-org/react";
 import CustomNavBar from './components/navbar/page';
 import SideBar from './components/sidebar/page';
-
-
+import { useSelector } from 'react-redux';
 
 
 const page = () => {
+  const z = useSelector(state => state.product.wishListItems)
   const products = [{ id: 1, topic: 'Summer Lightweight Bikers Jacket', category: 'Mens Fashion', productImage: "https://static-01.daraz.com.np/p/e03fec6436b14874cb51edc4a7a02ba8.jpg_400x400q75-product.jpg_.webp", price: 3500 },
   { id: 2, topic: 'boAt STORM CALL |Smart Watch |', category: 'Watches', productImage: "https://static-01.daraz.com.np/p/43c8a719c316d060e71c0814206f19c3.png_400x400q75-product.jpg_.webp", price: 9000 },
   { id: 3, topic: 'KS01 W-King Bluetooth Speaker', category: 'Electronics', productImage: "https://static-01.daraz.com.np/p/5ff620382b52b6a100bef2432b9ee691.jpg_400x400q75-product.jpg_.webp", price: 2300 },
